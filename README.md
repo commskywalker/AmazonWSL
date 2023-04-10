@@ -91,17 +91,16 @@ The following is an example of adding a user to the "users" and "wheel" groups
 
 _Note1: Replace `user` with your chosen user name._
 
-
 ```cmd
 >AL2.exe run useradd -m -g users -G wheel -s /bin/bash user
 ```
-_Note1: Before setting `user` as the default user (as described below), login with the user (`su - user`) and check if it is able to run commands as sudo (`sudo yum update`).
+_Note2: Before setting `user` as the default user, login with the user (`su - user`) and check if it is able to run commands as sudo (`sudo yum update`). If not, check further instructions below. Otherwise, skip for "Setting `user` as the default user"._
 
 If `sudo` is not a recognized command, as root run `yum install -y sudo`.
 
-After installation is complete, run the command `visudo` to edit the /etc/sudoers file, press the "i" key to enter edit mode.
+After installation is complete, run the command `visudo` to edit the `/etc/sudoers` file, press the "i" key to enter edit mode.
 Use the arrow keys to naviagte the file until you find the root user entry 'root ALL=(ALL:ALL) ALL', and add the user `user` right below, following the same format '`user` ALL=(ALL:ALL) ALL'.
-Press ESC to leave edit mode, and type :wq to Save & Exit (or hold Shift key and press the "z" key 2x)._
+Press ESC to leave edit mode, and type :wq to Save & Exit (or hold Shift key and press the "z" key 2x).
 
 Setting `user` as the default user:
 ```cmd
