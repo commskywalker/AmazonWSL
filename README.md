@@ -1,8 +1,8 @@
 # AmazonWSL
-Amazon Linux on WSL (Windows 10 FCU or later) - Amazon Linux 2 and Amazon Linux 2023 updated from [AmazonWSL](https://github.com/yosukes-dev/AmazonWSL)
+Amazon Linux on WSL (Windows 10 FCU or later) - Amazon Linux 2 and Amazon Linux 2023 updated from [AmazonWSL](https://github.com/yosukes-dev/AmazonWSL) (Thank you yosukes-dev!!!)
 based on [wsldl](https://github.com/yuk7/wsldl)
 
-### [Download](https://github.com/commskywalker/AmazonWSL/releases)
+### [Download AL2](https://github.com/commskywalker/AmazonWSL/blob/main/AL2.zip) or [Download AL2023](https://github.com/commskywalker/AmazonWSL/blob/main/AL2023.zip)
 
 ## An instruction on AWS Developer Tools Blog
 The following link is to an article on the AWS Developer Tools Blog describing development with AmazonWSL.    
@@ -13,7 +13,7 @@ The following link is to an article on the AWS Developer Tools Blog describing d
 * Windows Subsystem for Linux feature is enabled.
 
 ## Install
-#### 1. [Download](https://github.com/commskywalker/AmazonWSL/releases) installer zip
+#### 1. Download one of the installer zips linked above
 
 #### 2. Extract all files in zip file to same directory
 
